@@ -28,11 +28,14 @@ li {
   margin-left: auto;
 
 }
+.right .dropdown a {
+  padding-right: 15px;
+}
 .list-inline {
 display: flex;
 }
 .list-inline li {
-  padding: 20px;
+  padding: 0px 20px;
   list-style: none;
 }
 .list-inline li img {
@@ -79,6 +82,8 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: black;
-  background-color: #64009e
+  background-color: #ff75c8;
+}
+.right .dropdown .dropdown-menu ul li {
+  padding: 10px 5px;
 }
