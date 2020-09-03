@@ -2,6 +2,7 @@
  box-sizing: border-box;
  margin: 0;
  padding: 0;
+ font-size: 20px;
  }
 li {
   position: relative;
@@ -11,7 +12,7 @@ li {
   display: flex
 }
 .container {
-  width: 1284px;
+  width: 1424px;
   display: flex;
   margin: auto;
 }
@@ -43,23 +44,41 @@ display: flex;
   color: #a4aab1;
 
 }
+
 .list-inline li a:hover {
 color: #000;
 }
 .dropdown-menu {
   position: absolute;
   display: none;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .dropdown-menu ul li {
   list-style: none;
   padding: 10px 20px;
-
 }
 .dropdown-menu ul li:hover {
+  border-radius: 10px;
+
   background-color: silver;
 }
 .dropdown-menu ul li a {
   text-decoration: none;
   display: block;
+}
+button {
+  padding: 10px 20px;
+  margin: 30px 0px;
+  margin-left: 50px;
+  border-radius: 30px;
+  background-color: #eb008d;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+  background-color: #64009e
 }
