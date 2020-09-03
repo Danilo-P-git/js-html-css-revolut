@@ -3,7 +3,9 @@
  margin: 0;
  padding: 0;
  }
-
+li {
+  position: relative;
+}
 
 .main-nav {
   display: flex
@@ -43,4 +45,17 @@ display: flex;
 }
 .list-inline li a:hover {
 color: #000;
+}
+.dropdown-menu {
+  position: absolute;
+  display: none;
+}
+
+.dropdown-menu ul li {
+  list-style: none;
+
+}
+.dropdown-menu ul li a {
+  text-decoration: none;
+  display: block;
 }
